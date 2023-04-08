@@ -1,0 +1,9 @@
+name: noelytra
+version: '${project.version}'
+main: noelytra.noelytra.Noelytra
+api-version: 1.19
+commands:
+  elytra:
+    permission: noelytra.change
+    description: Enable or disable flying with elytra
+    usage: /elytra enable/disable
